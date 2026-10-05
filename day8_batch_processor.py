@@ -17,19 +17,11 @@ client = OpenAI(
 )
 
 raw_profiles = [
-    "Prathyusha | Email: prathyusha@craftechco.com | Role: Chief Executive Officer",
-    "Mohan Krishna | Email: mohan.krishna@craftechco.com | Role: Chief Technology Officer",
-    "Divakar ch | Email: divakar.ch@craftechco.com | Role: HR Manager",
-    "Sai Prasanna | Email: sai.prasanna@craftechco.com | Role: HR Executive",
     "Sudheer | Email: sudheer@craftechco.com | Role: Scrum Master",
-    "Akhila K | Email: akhila.k@craftechco.com | Role:  Lead Gen AI Specialist",
+    "Akhila K | Email: | Role:  Lead Gen AI Specialist",
     "Ravi Kiran | Email: ravi.kiran@craftechco.com | Role: Lead Gen AI Specialist",
     "Damodhara Prasad | Email: damodhara.prasad@craftechco.com | Role: Gen AI Specialist",
-    "Ravi Teja | Email: ravi.teja@craftechco.com | Role: Gen AI Specialist",
-    "Karthik Reddy | Email: karthik.reddy@craftechco.com | Role: Sales Executive",
-    "Siva Prasad | Email: | Role: Sales Executive",
-    "Soundarya K | Email: soundarya.k@craftechco.com | Role: SAP Consultant",
-    "Srinivas Reddy | Email: | Role: SAP Consultant"
+    "Ravi Teja | Email: | Role: Gen AI Specialist",
 ]
 
 def extract_profile_to_json(profile_text):
